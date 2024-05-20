@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-control, .form-select {
+    margin-bottom: 15px;
+  }
+
+  .form-control:required:invalid {
+    border-color: #cfa721;
+  }
+
+  .form-control:required:valid {
+    border-color: #28a745;
+  }
+
+  .btn-submit {
+    width: 100%;
+  }

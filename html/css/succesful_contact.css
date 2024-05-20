@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }

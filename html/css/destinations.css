@@ -1,0 +1,29 @@
+#destinations {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+.destinations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+  
+.destination img {
+    width: 100%;
+    height: auto;
+  }
+  
+.destination {
+    position: relative;
+  }
+  
+.destination .location {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
